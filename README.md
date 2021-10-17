@@ -1,5 +1,5 @@
 # FlatlafThemesComboBoxModel
-![GitHub](https://img.shields.io/github/license/kolod/flatlaf-themes-combobox-model?style=flat-square)[![javadoc](https://javadoc.io/badge2/io.github.kolod/flatlaf-themes-combobox-model/javadoc.svg?style=flat-square&color=97CA00)](https://javadoc.io/doc/io.github.kolod/flatlaf-themes-combobox-model)[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.kolod/flatlaf-themes-combobox-model/badge.svg?style=flat-square&color=97CA00)](https://maven-badges.herokuapp.com/maven-central/io.github.kolod/flatlaf-themes-combobox-model)
+![GitHub](https://img.shields.io/github/license/kolod/flatlaf-themes-combobox-model?style=flat-square) [![javadoc](https://javadoc.io/badge2/io.github.kolod/flatlaf-themes-combobox-model/javadoc.svg?style=flat-square&color=97CA00)](https://javadoc.io/doc/io.github.kolod/flatlaf-themes-combobox-model) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.kolod/flatlaf-themes-combobox-model/badge.svg?style=flat-square&color=97CA00)](https://maven-badges.herokuapp.com/maven-central/io.github.kolod/flatlaf-themes-combobox-model)
 
 The ComboBox model for the [FlatLaf](https://github.com/JFormDesigner/FlatLaf) themes.
 
