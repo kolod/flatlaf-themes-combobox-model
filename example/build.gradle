@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'application'
+}
+
+mainClassName = 'com.example.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'io.github.kolod:flatlaf-themes-combobox-model:1.0'
+}

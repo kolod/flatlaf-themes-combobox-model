@@ -9,3 +9,4 @@
 
 rootProject.name = 'flatlaf-themes-combobox-model'
 include('lib')
+include('example')
