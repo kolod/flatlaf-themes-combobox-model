@@ -7,4 +7,9 @@ build
 # Ignore Gradle properties
 gradle.properties
 
+# Ignore intellij idea project settings
+.idea
+
+example/logs
+lib/java*.hprof
 *~

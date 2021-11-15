@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="%d{DEFAULT} [%t] %-5level %logger{36} - %msg%n" charset="UTF-8"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="logs/test_trainer.log" filePattern="logs/$${date:yyyy-MM}/test_cheater-%d{MM-dd-yyyy}-%i.log.zip">
+            <PatternLayout pattern="%d{DEFAULT} [%t] %-5level %logger{36} - %msg%n" charset="UTF-8"/>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="250 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -7,6 +7,6 @@
  * in the user manual at https://docs.gradle.org/7.2/userguide/multi_project_builds.html
  */
 
-rootProject.name = 'flatlaf-themes-combobox-model'
-include('lib')
-include('example')
+rootProject.name = "flatlaf-themes-combobox-model"
+include("lib")
+include("example")
