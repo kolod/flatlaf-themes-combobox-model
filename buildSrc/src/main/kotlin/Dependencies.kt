@@ -37,17 +37,17 @@ object Log4j {
 }
 
 object FlatLookAndFeel {
-    const val version = "1.6.1"
+    const val version = "1.6.4"
     const val group = "com.formdev"
     const val core = "$group:flatlaf:$version"
-    const val extra = "$group:flatlaf-extras:$version"
+    const val extras = "$group:flatlaf-extras:$version"
     const val intellij = "$group:flatlaf-intellij-themes:$version"
 }
 
 object Kolod {
     const val group = "io.github.kolod"
     object FlatLookAndFeelfModel {
-        const val version = "1.1"
+        const val version = "1.1.1"
         const val core = "$group:flatlaf-themes-combobox-model:$version"
     }
 }

@@ -5,11 +5,9 @@ import com.formdev.flatlaf.*
 import com.formdev.flatlaf.extras.FlatAnimatedLafChange
 import javax.swing.AbstractListModel
 import javax.swing.ComboBoxModel
-import javax.swing.LookAndFeel
 import javax.swing.UIManager.setLookAndFeel
 import javax.swing.UnsupportedLookAndFeelException
 import org.slf4j.LoggerFactory
-import kotlin.reflect.KProperty1
 
 private const val THEMES_PACKAGE = "/com/formdev/flatlaf/intellijthemes/themes/"
 

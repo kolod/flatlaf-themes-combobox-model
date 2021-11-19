@@ -22,7 +22,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(Kotlin.stdlibJdk8)
     implementation(FlatLookAndFeel.core)
-    implementation(FlatLookAndFeel.extra)
+    implementation(FlatLookAndFeel.extras)
     implementation(FlatLookAndFeel.intellij)
     implementation(Slf4j.core)
     dokkaPlugin(Kotlin.dokka)
@@ -68,7 +68,7 @@ publishing {
     publications {
         create<MavenPublication>("library") {
             from(components["java"])
-            version = "1.1"
+            version = "1.1.1"
             groupId = "io.github.kolod"
             artifactId = "flatlaf-themes-combobox-model"
             artifact(dokkaJavadocJar)
